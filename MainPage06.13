@@ -1,0 +1,103 @@
+<?php
+/**
+ * The template for displaying all pages
+ *
+ * This is the template that displays all pages by default.
+ * Please note that this is the WordPress construct of pages
+ * and that other 'pages' on your WordPress site may use a
+ * different template.
+ *
+ * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
+ *
+ * @package PeepsRun
+ */
+ 
+ /*
+ Template name: Home Page
+ */
+
+get_header();
+?>
+<style>
+    
+    
+.outer{
+  
+  height:700px;
+  display: block;
+  position: relative;
+
+}
+
+.outer img {
+  
+  height: auto;
+}
+
+.outer .inner {
+
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  position: absolute;
+  padding: 0;
+  transition: opacity .5s;
+}
+
+.outer .inner p {
+ padding-right:70px;
+  background:white;
+  color: black;
+  font-size:50px;
+  letter-spacing:1.1px;
+  margin-top: 350px;
+  line-height: 50px;
+  text-align: center;
+}
+
+
+.outer .inner {
+  opacity: .9;
+  transition: opacity .5s;
+}
+
+</style>
+
+
+
+
+<!DOCTYPE html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+     <!-- TOP OF PAGE
+    ================================================== -->
+   
+    		
+<div class="outer">
+    <img src="http://peepsrun.com/peepMain.jpg" class="img-fluid" alt="Responsive image">
+
+ <div class="inner">
+     <p>Philadelphia Endurance  </br>Enhancement Project</br> <button type="button" class="btn btn-outline-primary">Contact</button><button type="button" class="btn btn-outline-primary">Services</button><button type="button" class="btn btn-outline-primary">About</button></p>
+     
+</div>
+</div>
+
+
+
+
+
+</head>
+
+
+
+</html>
+
+
+		
+
+
+
+
