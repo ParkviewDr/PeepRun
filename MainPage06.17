@@ -1,0 +1,192 @@
+<?php
+/**
+ * The template for displaying all pages
+ *
+ * This is the template that displays all pages by default.
+ * Please note that this is the WordPress construct of pages
+ * and that other 'pages' on your WordPress site may use a
+ * different template.
+ *
+ * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
+ *
+ * @package PeepsRun
+ */
+ 
+ /*
+ Template name: Home Page
+ */
+
+get_header();
+?>
+
+
+<!--- font families 
+
+
+
+    font-family: 'Raleway', sans-serif;
+
+    font-family: 'PT Serif', serif;
+
+    font-family: 'Nunito', sans-serif;
+
+----->
+
+
+
+
+
+<style>
+    
+    
+.outer{
+  
+  height:700px;
+  display: block;
+  position: relative;
+
+}
+
+.outer img {
+  
+  height: auto;
+}
+
+.outer .inner {
+
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  position: absolute;
+  padding: 0;
+  transition: opacity .5s;
+}
+
+.outer .inner p {
+    padding-bottom:20px;
+ padding-right:70px;
+  background:white;
+  color: black;
+  font-size:50px;
+  letter-spacing:1.1px;
+  margin-top: 350px;
+  line-height: 50px;
+  text-align: center;
+  font-family: 'PT Serif', serif;
+}
+
+
+.outer .inner {
+  opacity: .9;
+  transition: opacity .5s;
+}
+
+
+
+
+.titles {
+    font-size:28px;
+    font-weight:bold;
+    text-align:center;
+    letter-spacing:1.2px;
+    font-family: 'Raleway', sans-serif;
+}
+
+</style>
+
+
+
+
+<!DOCTYPE html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+     <!-- TOP OF PAGE
+    ================================================== -->
+   
+    		
+<div class="outer">
+    <img src="http://peepsrun.com/peepMain.jpg" class="img-fluid" alt="Responsive image">
+
+ <div class="inner">
+     <p>Philadelphia Endurance  </br>Enhancement Project</br> <button type="button" class="btn btn-outline-primary">Contact</button>&nbsp;&nbsp;<button type="button" class="btn btn-primary">Services</button>&nbsp;&nbsp;<button type="button" class="btn btn-outline-primary">About</button>&nbsp;&nbsp;<button type="button" class="btn btn-primary">Calendar</button>&nbsp;&nbsp;<button type="button" class="btn btn-outline-primary">Mission Statement</button></p>
+     
+</div>
+</div>
+<!-------------------- END OF TOP OF PAGE -------------------->
+
+<div class="container">
+    <div class="titles"><p>About Jas</p></div>
+     <div class="row">
+    <div class="col">
+<p> Jasmin has over 15 years of experience in the fitness industry and is a VDOTO2 Certified
+Distance Running Coach as well as a Certified Strength and Conditional Specialist with the
+National Strength and Conditioning Association (NSCA-CSCS).
+As a kid growing up and playing basketball in Bosnia, he dreamed of playing in the NBA. He
+came as close as 10 vertical inches away from being drafted. After that “close call”, he
+refocused his attention on college and decided to pursue an interest in human performance and
+exercise. He moved to New Hampshire, studied at the University of New Hampshire and earned
+a Bachelor of Science in Kinesiology.</div></div>
+ <div class="row">
+    <div class="col">
+His passion is educating clients about fitness while giving them the tools to achieve their goals,
+whether it be a competitive and/or recreational endurance athlete looking to set their personal
+best or a client looking to lose a few pounds. He believes having S.M.A.R.T. goals and a plan is
+important to staying on track and reaching success. He helps clients achieve their goals by using
+simple, effective and proven fitness principles.
+He frequently competes in the local running circuit where you can find him running anything
+from 5k’s to an ultra marathon. He loves the competitive challenge that racing brings and the
+disciplined training it requires for achieving a specific goal. Plus, nothing beats the post race
+pizza and beer. </p>
+</div></div>
+</div>
+
+
+
+   <div class="titles">
+       <p>Services</p></div>
+   
+   <div class="container">
+  <div class="row">
+    <div class="col">
+        <p>Online Monthly Running Coaching (Starting at $85/month)</p>
+<p> Individualized weekly running schedule</p>
+<p> Easy to follow on-line training log/calendar</p>
+<p>Access to your plan anytime, anywhere via the on-line app</p>
+<p>Unlimited feedback by e-mail, text or in person</p> 
+<p>Workouts adjusted daily if needed</p> 
+<p>Race Planning/Strategies</p></div>
+
+    <div class="col"><p> Training Plans for 5k-Marathon (Starting at $40/12week plan)</p>
+<p>Individualized Event Specific running plans (12-16 weeks)</p></div>
+
+    <div class="col"><p>Online Monthly Strength Training Coaching (Starting at $60/month)</p>
+<p>Individualized weekly strength training schedule</p>
+<p>Easy to follow on-line training log/calendar</p>
+<p>Access to your plan anytime, anywhere via the on-line app</p></div>
+  </div>
+
+</br>
+
+
+
+    
+    
+    
+    
+</div>
+
+</head>
+
+
+
+</html>
+
+
+		
+
+
+
+
